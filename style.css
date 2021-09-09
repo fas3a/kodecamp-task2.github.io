@@ -1,0 +1,229 @@
+@font-face{
+    font-family: playfair;
+    src: url(./font/PlayfairDisplay.ttf)
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url(./font/OpenSans.ttf)
+}
+
+
+* {
+    box-sizing: border-box
+}
+.container{
+    background-color: white
+}
+.header{
+    background-image: url("./images/banner.jpeg");
+    max-width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.bg-light{
+    background-image: url("./images/banner.jpeg");
+    max-width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.about{
+    color: white;
+    font-size: 70px;
+    font-family: playfair, serif !important;
+}
+
+.aboutUs{
+    background-color: white;
+    padding: 30px 0px;
+    font-size: 17px;
+    text-align: left;
+}
+.about-nav{
+    position: absolute;
+    bottom: 20px;
+    margin: 20px
+}
+
+.header-2{
+    background-color: #d9b1b3;
+    padding: 100px 0px;
+    color: white
+}
+.header-2 h2{
+    margin-bottom: 25px;
+    font-family: playfair, "sans-serif";
+}
+.header-2 h2::first-letter{
+    font-size: 50px
+
+}
+.header-2 h5{
+    /* min-width: 50%; */
+    /* text-justify: center; */
+    /* padding: 0 100px */
+
+}
+.row img{
+    padding: 0
+}
+
+/* Styling of Coming Soon Section */
+.coming-soon{
+    background-color: #d9b1b3;
+    color: white;
+    text-align: center;
+    padding: 50px;  
+}
+.coming-soon h1{
+    font-size: 50px;
+    font-family: playfair;
+}
+.coming-soon h5{
+    padding: 25px 0;
+    font-family: Lato, sans-serif !important;
+}
+.coming-soon input{
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    padding: 12px 5px;
+    width: 220px;
+    margin: 3px
+}
+.coming-soon input[type="button"]{
+    width: 150px;
+    background-color: black;
+    color: white
+}
+
+/* Styling of Article */
+.article{
+    padding: 30px 0;
+    align-items: center;
+    justify-content: center
+
+}
+.article h3{
+    font-size: 20px;
+    padding: 10px 25px;
+    font-family: 'Open Sans'
+    
+}
+/* .article h2{
+    font-size: 10px;
+    padding: 10px 25px;
+    font-family:  'Open Sans', sans-serif; 
+} */
+.name-sign{
+    width: 50%;
+    height: 50px;
+}
+
+
+
+
+/* Spring Collection Section */
+.collection{
+    background-color: #d9b1b3;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    padding: 50px 0;
+    color: white
+}
+.collection h1{
+    padding-bottom: 5px;
+    font-family: playfair, sans-serif;
+    font-size: 70px;
+}
+.collection img{
+    padding: 3px
+}
+.arrw{
+    margin-top: 15px;
+    width: 50px;
+    height: 45px;
+}
+
+/* Styling of product */
+.product{
+    padding: 20px 25px;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+.product img{
+    padding: 5px;
+}
+.sample-product{
+    text-align: left;
+}
+.sample-product h3{
+    padding-bottom: 20px;
+}
+.sample-product h6{
+    font-size: 12px;
+}
+.sample-product input{
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    width: 150px;
+    border: none;
+    padding: 5px 0;
+
+}
+
+/* Styling of Subscribe section */
+.subscribe{
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+.subscribe hr{
+    width: 85%;
+    border: 4px solid rgb(255, 136, 0);
+    margin: 20px auto;
+}
+
+.subscribe h1{
+    padding: 15px 0px 30px;
+    font-family:  playfair, serif !important;
+    font-size: 60px
+}
+.subs-input{
+    padding: 20px 0 10px;
+}
+.subscribe input{
+    width: 250px;
+    margin: 5px;
+}
+.subscribe input[type="button"]{
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    padding: 5px;
+}
+.subscribe h5{
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.subscribe-side img{
+    width: 20px;
+    height: 20px;
+}
+
+/* @media only screen and (min-width: 400px){
+        background-image: url("./images/banner.jpeg");
+} */
+
+
